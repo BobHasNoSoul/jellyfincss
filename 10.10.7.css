@@ -1,0 +1,558 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html, body, h1, h2, h2, h4, h5 {
+        font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 100em) {
+  .withSectionTabs .headerTop {
+    padding-bottom: 1px;
+  }
+}
+
+.trackSelections {
+  max-width: 44em;
+  padding-bottom: 2vh;
+  padding-top: 3vh;
+}
+
+[dir="ltr"] .mediaInfoItem {
+  margin: 28px 1em 0 0;
+}
+
+.itemMiscInfo, .nameContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 1vw;
+  padding-top: 33vh;
+}
+
+.layout-desktop .mainDetailButtons {
+  margin-top: 7.5em !important;
+  padding-right: 18vw !important;
+}
+
+.itemMiscInfo, .nameContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 1vw;
+  padding-top: 32vh;
+}
+
+.headerTop {
+  padding: 1px !important;
+}
+
+
+
+.skinHeader-withBackground {
+  background-color: #00000047;
+}
+
+.layout-desktop [dir="ltr"] .detailRibbon, .layout-tv [dir="ltr"] .detailRibbon {
+  padding-left: 32.45vw;
+  padding-top: 14vh;
+}
+
+.trackSelections {
+  max-width: 44em;
+  padding-bottom: 2vh;
+}
+
+@supports (width:max(1px,1px)) {
+  [dir="ltr"] .padded-left {
+    padding-left: max(env(safe-area-inset-left),3.3%);
+    padding-top: 12vh;
+  }
+}
+
+.layout-desktop .detailPagePrimaryContent {
+  width: 100% !important;
+}
+
+.detailSectionContent { padding-top: 2vh;}
+
+.itemMiscInfo, .nameContainer {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 1vw;
+}
+
+[dir="ltr"] .detailPagePrimaryContent {
+  padding-left: 1vw;
+  padding-top: 7vh;
+}
+}
+
+.backgroundContainer.withBackdrop {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.noBackdropTransparency .detailPagePrimaryContainer, .noBackdropTransparency .detailPageSecondaryContainer {
+  background-color: #10101000;
+}
+* {
+  scrollbar-color: #3b3b3b00 #20202000;
+  scrollbar-width: thin;
+}
+
+@media only screen and (max-height: 767px) and (orientation: landscape) {
+  #slides-container {
+    height: 86vh !important;
+  }
+}
+
+.button-container {
+  position: absolute;
+  top: calc(50% + 25vh) !important;
+  left: 4vw;
+}
+
+@media only screen and (max-height: 767px) and (orientation: landscape) {
+  .plot-container {
+    top: calc(50% + 12vh) !important;
+  }
+}
+
+@media only screen and (max-height: 767px) and (orientation: landscape) {
+  .info-container {
+    top: calc(50% + 1vh) !important;
+  }
+}
+
+@media only screen and (max-height: 767px) and (orientation: landscape) {
+  .genre {
+    top: calc(50% + 7vh) !important;
+  }
+}
+
+@media only screen and (max-height: 767px) and (orientation: landscape) {
+  .logo-container {
+    height: 44% !important;
+  }
+}
+
+.emby-scroller-container {
+  position: relative;
+  top: 11vh;
+}
+
+#overlay-disc {
+  position: absolute !important;
+  top: calc(50vh - (26vw / 2)) !important;
+  right: 7% !important;
+  width: 26vw !important;
+  height: auto !important;
+  display: block !important;
+  animation: 30s linear infinite spin !important;
+  z-index: -1 !important;
+  filter: brightness(80%) !important;
+}
+
+#overlay-plot {
+  top: 61% !important;
+  max-width: 54% !important;
+  height: 50vh !important;
+  display: block !important;
+  right: 41vw !important;
+  position: absolute !important;
+  font-size: 21px !important;
+}
+
+#overlay-logo {
+    position: absolute !important;
+    max-width: 50vw !important; /* Max width is half the viewport width */
+    max-height: 23vh !important; /* Limits the height */
+    width: auto !important; /* Ensures no forced stretching */
+    height: auto !important; /* Preserves aspect ratio */
+    top: 25vh !important; /* Places it at a quarter of the viewport height */
+    left: 19vw !important; /* Centers within the left half */
+    transform: translateX(-50%) !important; /* Ensures true centering */
+    display: block !important;
+        margin-left: 12vw !important;
+    object-fit: contain; /* Prevents cropping/stretching */
+}
+
+
+#itemDetailPage .itemName.infoText.parentNameLast > bdi:nth-child(1) {
+    display: none;
+}
+
+.hide+.detailPageWrapperContainer .itemName > bdi:nth-child(1) {
+    display: block !important;
+}
+
+#itemDetailPage .parentName > bdi:nth-child(1) {
+    display: none;
+}
+
+.hide+.parentName > bdi:nth-child(1) {
+    display: block !important;
+}
+
+/*.itemName > bdi:nth-child(1) {display:none !important}*/
+/*.parentName > bdi:nth-child(1) {display:none !important}*/
+
+/*fix logo on the itemspages*/
+/*.itemName {*/
+/*  padding-top: 24vh;*/
+/*}*/
+
+.layout-desktop .mainDetailButtons {
+  margin-top: 1.5em;
+  margin-right: 24vw !important;
+}
+
+.pageTitleWithDefaultLogo {
+  background-image: url(/web/banner-light.png) !important;
+}
+
+.detailLogo {
+  height: 26vh !important;
+  width: 45vw !important;
+}
+
+/*admin dash fix stops the pannels going too far right*/
+.dashboardSection {
+  width: 75vw;
+}
+
+/*Custom login page of awesome*/
+#loginPage {
+
+  background-image: url('/Branding/Splashscreen?format=jpg&foregroundLayer=20.0');
+  background-position: top left;
+  /*background-size: cover;*/
+  background-size: 200%;
+  background-attachment: fixed;
+  animation: backgroundAnimation 150s infinite alternate;
+  z-index: 2;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-position: top left;
+  }
+  25% {
+    background-position: bottom right;
+  }
+  50% {
+    background-position: bottom left;
+  }
+  100% {
+    background-position: top left;
+  }
+}
+
+.skinHeader.semiTransparent.noHeaderRight {
+  background: transparent !important;
+}
+
+div#loginPage {
+  margin-top: 0 !important;
+  overflow: hidden scroll;
+}
+
+#loginPage h1::after {
+  content: "Sign In";
+  font-size: 32px;
+}
+
+#loginPage h1 {
+  font-weight: 700;
+  font-size: 0;
+  margin-bottom: 21.44px;
+  margin-top: 32px !important;
+  text-align: left;
+}
+
+.inputContainer {
+  margin-bottom: 1.8em;
+  margin-top: 1.8em;
+}
+
+#loginPage .padded-left.padded-right.padded-bottom-page {
+    background: #000000bf;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    margin: 21px;
+    position: absolute;
+    border-radius: 10px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 3em !important;
+}
+
+#loginPage .readOnlyContent {
+  padding: 0 !important;
+  width: 100% !important;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.manualLoginForm {
+  height: 100%;
+  width: 100%;
+}
+
+#loginPage .inputContainer {
+  background: #333;
+  border-radius: var(--rounding);
+  height: 4em;
+  position: relative;
+}
+
+#loginPage .inputLabel.inputLabelFocused,
+#loginPage .inputLabel:not(.inputLabel-float) {
+  font-size: 0.8em;
+  left: 4%;
+  top: 4%;
+  transform: none;
+}
+
+.visualLoginForm {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+#divUsers {
+  flex-flow: revert;
+  overflow: scroll visible;
+  justify-content: flex-start;
+}
+
+#loginPage .emby-input {
+  height: 100%;
+  border: none;
+  background: transparent !important;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  box-shadow: none !important;
+  padding: 4% !important;
+  font-size: 1.1em;
+  border: none !important;
+}
+
+#loginPage .inputLabel {
+  position: absolute;
+  top: 50%;
+  left: 4%;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+  font-weight: 300;
+  transition: 0.2s ease;
+  color: #8c8c8c;
+}
+
+#loginPage .inputContainer:focus,
+#loginPage .inputContainer:focus-within {
+  background: #454545;
+}
+
+
+/*custom logo in header
+.pageTitleWithDefaultLogo {    background-image: url(https://www.blueboxofdoom.uk/filebrowser/api/public/dl/kXAiVZpC?inline=true) !important;}
+*/
+/*Splash logo change
+.splashLogo{background-image:url(https://www.blueboxofdoom.uk/filebrowser/api/public/dl/kXAiVZpC?inline=true) !important;}
+*/
+/*increased admin logos*/
+div.sessionNowPlayingInfo img {max-height: 100% !important; max-width: 100% !important; height: 70% !important;}
+
+/*fix the admin dashboard being so shit*/
+.dashboardSection { width: 80vw !important;}
+
+.layout-desktop .detailLogo {
+  left: 5%;
+  background-position: top left;
+}
+
+.layout-desktop .itemBackdrop {
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 80vw;
+  position: relative;
+  right: -20%;
+}
+
+.layout-desktop .detailPageWrapperContainer {
+  margin-top: -65vh;
+  /* inicial: 73 */
+}
+
+.layout-desktop .detailImageContainer .card,
+.layout-desktop .itemTags{
+  display: none;
+}
+
+.layout-desktop .detailPagePrimaryContainer,
+.layout-desktop .detailPageContent {
+  padding-left: 5%;
+}
+
+.layout-desktop .detailPagePrimaryContent {
+  width: 45%;
+}
+
+.layout-desktop .detailPagePrimaryContainer {
+  display: inline-table;
+  z-index: 2;
+  left: 5%;
+}
+
+.layout-desktop .detailPageSecondaryContainer {
+  margin: 0 0 1.25em 0;
+}
+
+.layout-desktop .itemDetailsGroup {
+  margin-top: 0;
+}
+
+.itemDetailsGroup {
+  margin-top: 0;
+}
+
+.itemName.originalTitle {
+  display: none;
+}
+
+
+
+.layout-desktop .itemName.originalTitle {
+  display: none;
+}
+
+.layout-desktop .itemName,
+.layout-mobile .itemName {
+  font-weight: normal;
+}
+
+/* buttons section styles */
+
+.layout-desktop .mainDetailButtons {
+  margin-top: 1.5em;
+}
+
+.layout-desktop .btnPlay {
+  /*border: 2px solid #cecece;*/
+  border-radius: 2em;
+  /*width: 7vw;*/
+  background-color: #0000003d;
+  backdrop-filter: blur(var(--blur));
+  -webkit-backdrop-filter: blur(var(--blur));
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  /*padding: 0.4em!important;*/
+  /*margin-right: 30%!important;*/
+}
+
+.layout-desktop .btnPlay:hover {
+  background-color: #00a5dc28;
+  transform: scale(1.05) translateX(5px);
+}
+
+.layout-desktop .btnPlay::after {
+  content: attr(title);
+  margin: 0 10px 0 2px;
+  color: white;
+}
+
+.layout-desktop .material-icons.detailButton-icon.play_arrow {
+  color: white;
+
+}
+
+.layout-desktop .btnPlay.detailButton {
+  flex-direction: row;
+}
+
+
+
+/*  season section  */
+.layout-desktop .vertical-list {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.layout-desktop .listItem-withContentWrapper {
+  align-items: flex-start;
+  flex-direction: column;
+  width: 32%;
+}
+
+.layout-desktop .listItem-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.layout-desktop .listItemImage-large {
+  height: 16vw;
+  width: 100%;
+}
+
+.detailRibbon {
+  background: transparent;
+}
+
+.noBackdropTransparency .detailPageSecondaryContainer {
+  background-color: transparent;
+}
+
+
+#overlay-disc {
+  position: absolute !important;
+  top: calc(50vh - (26vw / 2)) !important;
+  right: 7% !important;
+  width: 26vw !important;
+  height: auto !important;
+  display: block !important;
+  animation: 30s linear infinite spin !important;
+  z-index: -1 !important;
+  filter: brightness(80%) !important;
+}
+
+#overlay-plot {
+  top: 61% !important;
+  max-width: 54% !important;
+  height: 50vh !important;
+  display: block !important;
+  right: 41vw !important;
+  position: absolute !important;
+  font-size: 21px !important;
+}
+
+#overlay-logo {
+    position: absolute !important;
+    max-width: 50vw !important; /* Max width is half the viewport width */
+    max-height: 23vh !important; /* Limits the height */
+    width: auto !important; /* Ensures no forced stretching */
+    height: auto !important; /* Preserves aspect ratio */
+    top: 25vh !important; /* Places it at a quarter of the viewport height */
+    left: 19vw !important; /* Centers within the left half */
+    transform: translateX(-50%) !important; /* Ensures true centering */
+    display: block !important;
+        margin-left: 12vw !important;
+    object-fit: contain; /* Prevents cropping/stretching */
+}
+
+
